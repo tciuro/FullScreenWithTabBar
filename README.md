@@ -1,7 +1,7 @@
 # FullScreenWithTabBar
 ====================
 
-## Motivation: I was recently struggling trying to make a UITabBarController work in Kiosk mode.
+### Motivation: I was recently struggling trying to make a UITabBarController work in Kiosk mode.
 
 While looking around [StackOverflow](http://stackoverflow.com/) it was obvious I wasn't alone. Consider this example: you may have a tab bar that contains three items. One and three (the ones on each side) work as expected, allow you to switch between UIViewControllers. However, the item in the middle should completely take over the screen when pushed (e.g. to show an UIImagePickerController). The problem is, UITabBarController won't give up easily without a fight.
 <br/><br/>
