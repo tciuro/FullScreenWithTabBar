@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74BADE9C1556EC8600C3AD24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BADE9B1556EC8600C3AD24 /* UIKit.framework */; };
+		74BADE9E1556EC8600C3AD24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BADE9D1556EC8600C3AD24 /* Foundation.framework */; };
+		74BADEA01556EC8600C3AD24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BADE9F1556EC8600C3AD24 /* CoreGraphics.framework */; };
+		74BADEA61556EC8600C3AD24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74BADEA41556EC8600C3AD24 /* InfoPlist.strings */; };
+		74BADEA81556EC8600C3AD24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BADEA71556EC8600C3AD24 /* main.m */; };
+		74BADEAC1556EC8700C3AD24 /* WBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BADEAB1556EC8700C3AD24 /* WBAppDelegate.m */; };
+		74BADEAF1556EC8700C3AD24 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BADEAD1556EC8700C3AD24 /* MainStoryboard.storyboard */; };
+		74BADEB21556EC8700C3AD24 /* WBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BADEB11556EC8700C3AD24 /* WBFirstViewController.m */; };
+		74BADEB41556EC8700C3AD24 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 74BADEB31556EC8700C3AD24 /* first.png */; };
+		74BADEB61556EC8700C3AD24 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74BADEB51556EC8700C3AD24 /* first@2x.png */; };
+		74BADEB91556EC8700C3AD24 /* WBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BADEB81556EC8700C3AD24 /* WBSecondViewController.m */; };
+		74BADEBB1556EC8700C3AD24 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 74BADEBA1556EC8700C3AD24 /* second.png */; };
+		74BADEBD1556EC8700C3AD24 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74BADEBC1556EC8700C3AD24 /* second@2x.png */; };
+		74BADEC51556ED6000C3AD24 /* WBKioskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BADEC41556ED6000C3AD24 /* WBKioskViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74BADE971556EC8600C3AD24 /* FullScreenWithTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullScreenWithTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BADE9B1556EC8600C3AD24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		74BADE9D1556EC8600C3AD24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		74BADE9F1556EC8600C3AD24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		74BADEA31556EC8600C3AD24 /* FullScreenWithTabBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FullScreenWithTabBar-Info.plist"; sourceTree = "<group>"; };
+		74BADEA51556EC8600C3AD24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74BADEA71556EC8600C3AD24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74BADEA91556EC8600C3AD24 /* FullScreenWithTabBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FullScreenWithTabBar-Prefix.pch"; sourceTree = "<group>"; };
+		74BADEAA1556EC8700C3AD24 /* WBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBAppDelegate.h; sourceTree = "<group>"; };
+		74BADEAB1556EC8700C3AD24 /* WBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBAppDelegate.m; sourceTree = "<group>"; };
+		74BADEAE1556EC8700C3AD24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		74BADEB01556EC8700C3AD24 /* WBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBFirstViewController.h; sourceTree = "<group>"; };
+		74BADEB11556EC8700C3AD24 /* WBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBFirstViewController.m; sourceTree = "<group>"; };
+		74BADEB31556EC8700C3AD24 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		74BADEB51556EC8700C3AD24 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		74BADEB71556EC8700C3AD24 /* WBSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBSecondViewController.h; sourceTree = "<group>"; };
+		74BADEB81556EC8700C3AD24 /* WBSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBSecondViewController.m; sourceTree = "<group>"; };
+		74BADEBA1556EC8700C3AD24 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		74BADEBC1556EC8700C3AD24 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		74BADEC31556ED6000C3AD24 /* WBKioskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBKioskViewController.h; sourceTree = "<group>"; };
+		74BADEC41556ED6000C3AD24 /* WBKioskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBKioskViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74BADE941556EC8600C3AD24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BADE9C1556EC8600C3AD24 /* UIKit.framework in Frameworks */,
+				74BADE9E1556EC8600C3AD24 /* Foundation.framework in Frameworks */,
+				74BADEA01556EC8600C3AD24 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74BADE8C1556EC8600C3AD24 = {
+			isa = PBXGroup;
+			children = (
+				74BADEA11556EC8600C3AD24 /* FullScreenWithTabBar */,
+				74BADE9A1556EC8600C3AD24 /* Frameworks */,
+				74BADE981556EC8600C3AD24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74BADE981556EC8600C3AD24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74BADE971556EC8600C3AD24 /* FullScreenWithTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74BADE9A1556EC8600C3AD24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74BADE9B1556EC8600C3AD24 /* UIKit.framework */,
+				74BADE9D1556EC8600C3AD24 /* Foundation.framework */,
+				74BADE9F1556EC8600C3AD24 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74BADEA11556EC8600C3AD24 /* FullScreenWithTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				74BADEAD1556EC8700C3AD24 /* MainStoryboard.storyboard */,
+				74BADEC31556ED6000C3AD24 /* WBKioskViewController.h */,
+				74BADEC41556ED6000C3AD24 /* WBKioskViewController.m */,
+				74BADEAA1556EC8700C3AD24 /* WBAppDelegate.h */,
+				74BADEAB1556EC8700C3AD24 /* WBAppDelegate.m */,
+				74BADEB01556EC8700C3AD24 /* WBFirstViewController.h */,
+				74BADEB11556EC8700C3AD24 /* WBFirstViewController.m */,
+				74BADEB31556EC8700C3AD24 /* first.png */,
+				74BADEB51556EC8700C3AD24 /* first@2x.png */,
+				74BADEB71556EC8700C3AD24 /* WBSecondViewController.h */,
+				74BADEB81556EC8700C3AD24 /* WBSecondViewController.m */,
+				74BADEBA1556EC8700C3AD24 /* second.png */,
+				74BADEBC1556EC8700C3AD24 /* second@2x.png */,
+				74BADEA21556EC8600C3AD24 /* Supporting Files */,
+			);
+			path = FullScreenWithTabBar;
+			sourceTree = "<group>";
+		};
+		74BADEA21556EC8600C3AD24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74BADEA31556EC8600C3AD24 /* FullScreenWithTabBar-Info.plist */,
+				74BADEA41556EC8600C3AD24 /* InfoPlist.strings */,
+				74BADEA71556EC8600C3AD24 /* main.m */,
+				74BADEA91556EC8600C3AD24 /* FullScreenWithTabBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74BADE961556EC8600C3AD24 /* FullScreenWithTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74BADEC01556EC8700C3AD24 /* Build configuration list for PBXNativeTarget "FullScreenWithTabBar" */;
+			buildPhases = (
+				74BADE931556EC8600C3AD24 /* Sources */,
+				74BADE941556EC8600C3AD24 /* Frameworks */,
+				74BADE951556EC8600C3AD24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FullScreenWithTabBar;
+			productName = FullScreenWithTabBar;
+			productReference = 74BADE971556EC8600C3AD24 /* FullScreenWithTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74BADE8E1556EC8600C3AD24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WB;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Walt Disney Company";
+			};
+			buildConfigurationList = 74BADE911556EC8600C3AD24 /* Build configuration list for PBXProject "FullScreenWithTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74BADE8C1556EC8600C3AD24;
+			productRefGroup = 74BADE981556EC8600C3AD24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74BADE961556EC8600C3AD24 /* FullScreenWithTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74BADE951556EC8600C3AD24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BADEA61556EC8600C3AD24 /* InfoPlist.strings in Resources */,
+				74BADEAF1556EC8700C3AD24 /* MainStoryboard.storyboard in Resources */,
+				74BADEB41556EC8700C3AD24 /* first.png in Resources */,
+				74BADEB61556EC8700C3AD24 /* first@2x.png in Resources */,
+				74BADEBB1556EC8700C3AD24 /* second.png in Resources */,
+				74BADEBD1556EC8700C3AD24 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74BADE931556EC8600C3AD24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BADEA81556EC8600C3AD24 /* main.m in Sources */,
+				74BADEAC1556EC8700C3AD24 /* WBAppDelegate.m in Sources */,
+				74BADEB21556EC8700C3AD24 /* WBFirstViewController.m in Sources */,
+				74BADEB91556EC8700C3AD24 /* WBSecondViewController.m in Sources */,
+				74BADEC51556ED6000C3AD24 /* WBKioskViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74BADEA41556EC8600C3AD24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74BADEA51556EC8600C3AD24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		74BADEAD1556EC8700C3AD24 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74BADEAE1556EC8700C3AD24 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74BADEBE1556EC8700C3AD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74BADEBF1556EC8700C3AD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74BADEC11556EC8700C3AD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FullScreenWithTabBar/FullScreenWithTabBar-Prefix.pch";
+				INFOPLIST_FILE = "FullScreenWithTabBar/FullScreenWithTabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		74BADEC21556EC8700C3AD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FullScreenWithTabBar/FullScreenWithTabBar-Prefix.pch";
+				INFOPLIST_FILE = "FullScreenWithTabBar/FullScreenWithTabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74BADE911556EC8600C3AD24 /* Build configuration list for PBXProject "FullScreenWithTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74BADEBE1556EC8700C3AD24 /* Debug */,
+				74BADEBF1556EC8700C3AD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74BADEC01556EC8700C3AD24 /* Build configuration list for PBXNativeTarget "FullScreenWithTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74BADEC11556EC8700C3AD24 /* Debug */,
+				74BADEC21556EC8700C3AD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74BADE8E1556EC8600C3AD24 /* Project object */;
+}
